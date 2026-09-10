@@ -1,0 +1,63 @@
+.logo{
+    color: #007979;
+    font-family: sans-serif;
+}
+li{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+header{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(222, 221, 220);
+   padding: 0 10px;
+   ul{
+    display: flex;
+    gap:15px;
+   }
+
+}
+.buttonL{
+    padding: 5px 8px;
+    background-color: #007979;
+    color: white;
+}
+.servicios{
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        width:40;
+        gap:2px;
+        text-align: center;
+    }
+    img{
+        width: 300px;
+        
+    }
+
+}
+main{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+.texto{
+    width: 50%;
+}
+.imagen{
+    width: 50%;
+    img{
+        width: 95%;
+        height: 70%;
+    }
+}
+.servTexto{
+    text-align: center;
+    color: #007979;
+}
